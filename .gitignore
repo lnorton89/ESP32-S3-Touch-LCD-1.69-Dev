@@ -1,0 +1,35 @@
+# Visual Studio Code
+.vscode/
+
+# IDF-specific build artifacts
+/build/
+/sdkconfig
+/managed_components/*
+sdkconfig.old
+# Generic build artifacts
+*.o
+*.obj
+*.elf
+*.bin
+*.map
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+
+# Arduino IDE generated files (if you're using Arduino as a component)
+*.ino.bin
+*.ino.elf
+
+# C/C++ specific
+*.swp
+*.bak
+*.swo
+
+# C cache
+.c_deps/
+
+# Project-specific logs and configuration
+*.log
+*.cfg
